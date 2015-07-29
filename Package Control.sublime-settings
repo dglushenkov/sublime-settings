@@ -1,0 +1,20 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"BracketGuard",
+		"BracketHighlighter",
+		"Chain of Command",
+		"CSS Extended Completions",
+		"DocBlockr",
+		"EasyMotion",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"Package Control",
+		"SCSS",
+		"Theme - Afterglow"
+	]
+}

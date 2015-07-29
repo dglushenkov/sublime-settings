@@ -1,0 +1,59 @@
+[
+    // Easy Motion
+    { 
+        "keys": ["alt+k", "<character>"], 
+        "command": "easy_motion",
+        "args": {"select_text": false} 
+    },
+    { 
+        "keys": ["alt+k", "enter"], 
+        "command": "easy_motion",
+        "args": {"select_text": false, "character": "enter"}
+    },
+    { 
+        "keys": ["alt+shift+k", "<character>"], 
+        "command": "easy_motion",
+        "args": {"select_text": true} 
+    },
+    { 
+        "keys": ["alt+shift+k", "enter"], 
+        "command": "easy_motion",
+        "args": {"select_text": true, "character": "enter"}
+    },
+    // Sidebar
+    {
+        "keys": ["f1"],
+        "command": "toggle_side_bar"
+    },
+    // Vintage mode pagination
+    {
+        "keys": ["("],
+        "command": "move",
+        "args": {"by": "pages", "forward": false},
+        "context": [{"key": "setting.command_mode"}]
+    },
+    {
+        "keys": ["*"],
+        "command": "move",
+        "args": {"by": "pages", "forward": true},
+        "context": [{"key": "setting.command_mode"}]
+    },
+    // Custom macro
+    {
+        "keys": ["ctrl+;"],
+        "command": "run_macro_file",
+        "args": {"file": "Packages/User/insSemicolon.sublime-macro"}
+    },
+    {
+        "keys": ["shift+space"],
+        "command": "run_macro_file",
+        "args": {"file": "Packages/User/lineEnd.sublime-macro"}
+    },
+    // Hide autocomplete on ESC
+    {
+        "keys": ["escape"],
+        "command": "chain",
+        "args": {"commands": [["hide_auto_complete"], ["exit_insert_mode"]]},
+        "context": [{"key": "auto_complete_visible", "operator": "equal", "operand": true}]
+    }
+]
