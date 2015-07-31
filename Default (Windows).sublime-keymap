@@ -38,17 +38,6 @@
         "args": {"by": "pages", "forward": true},
         "context": [{"key": "setting.command_mode"}]
     },
-    // Custom macro
-    {
-        "keys": ["ctrl+;"],
-        "command": "run_macro_file",
-        "args": {"file": "Packages/User/insSemicolon.sublime-macro"}
-    },
-    {
-        "keys": ["shift+space"],
-        "command": "run_macro_file",
-        "args": {"file": "Packages/User/lineEnd.sublime-macro"}
-    },
     // Hide autocomplete on ESC
     {
         "keys": ["escape"],
