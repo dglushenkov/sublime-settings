@@ -5,6 +5,8 @@
 	"installed_packages":
 	[
 		"AutoFileName",
+		"Bootstrap 3 Jade Snippets",
+		"Bootstrap 3 Snippets",
 		"BracketGuard",
 		"BracketHighlighter",
 		"Chain of Command",
@@ -13,6 +15,7 @@
 		"EasyMotion",
 		"Emmet",
 		"HTML-CSS-JS Prettify",
+		"Jade",
 		"JavaScript & NodeJS Snippets",
 		"LESS",
 		"Package Control",
