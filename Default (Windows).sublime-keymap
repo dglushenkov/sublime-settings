@@ -25,7 +25,7 @@
         "keys": ["f1"],
         "command": "toggle_side_bar"
     },
-    // Vintage mode pagination
+    // Vintage mode
     {
         "keys": ["("],
         "command": "move",
@@ -38,11 +38,20 @@
         "args": {"by": "pages", "forward": true},
         "context": [{"key": "setting.command_mode"}]
     },
-    // Hide autocomplete on ESC
     {
-        "keys": ["escape"],
+        "keys": ["alt+j"],
         "command": "chain",
-        "args": {"commands": [["hide_auto_complete"], ["exit_insert_mode"]]},
-        "context": [{"key": "auto_complete_visible", "operator": "equal", "operand": true}]
+        "args": {"commands": [["hide_auto_complete"], ["exit_insert_mode"], ["exit_visual_mode"]]},
+    },
+    // Custom macro
+    {
+        "keys": ["shift+space"],
+        "command": "run_macro_file",
+        "args": {"file": "Packages/User/toLineEnd.sublime-macro"}
+    },
+    {
+        "keys": ["ctrl+;"],
+        "command": "run_macro_file",
+        "args": {"file": "Packages/User/semicolon.sublime-macro"}
     }
 ]
