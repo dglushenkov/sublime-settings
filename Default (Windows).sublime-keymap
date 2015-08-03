@@ -1,25 +1,25 @@
 [
     // Easy Motion
     { 
-        "keys": ["alt+j", "<character>"],
+        "keys": ["alt+k", "<character>"],
         "command": "easy_motion",
         "args": {"select_text": false},
         "context": [{"key": "setting.command_mode", "operand": true}]
     },
     { 
-        "keys": ["alt+j", "enter"], 
+        "keys": ["alt+k", "enter"], 
         "command": "easy_motion",
         "args": {"select_text": false, "character": "enter"},
         "context": [{"key": "setting.command_mode", "operand": true}]
     },
     { 
-        "keys": ["ctrl+j", "k", "<character>"], 
+        "keys": ["ctrl+k", "k", "<character>"], 
         "command": "easy_motion",
         "args": {"select_text": true},
         "context": [{"key": "setting.command_mode", "operand": true}]
     },
     { 
-        "keys": ["ctrl+j", "k", "enter"], 
+        "keys": ["ctrl+k", "k", "enter"], 
         "command": "easy_motion",
         "args": {"select_text": true, "character": "enter"},
         "context": [{"key": "setting.command_mode", "operand": true}]
@@ -44,11 +44,6 @@
     },
     {
         "keys": ["escape"],
-        "command": "chain",
-        "args": {"commands": [["hide_auto_complete"], ["exit_insert_mode"], ["exit_visual_mode"]]},
-    },
-    {
-        "keys": ["f", "j"],
         "command": "chain",
         "args": {"commands": [["hide_auto_complete"], ["exit_insert_mode"], ["exit_visual_mode"]]},
     },
