@@ -4,7 +4,6 @@
 	],
 	"installed_packages":
 	[
-		"AutoFileName",
 		"Bootstrap 3 Jade Snippets",
 		"Bootstrap 3 Snippets",
 		"BracketGuard",
@@ -14,6 +13,7 @@
 		"DocBlockr",
 		"EasyMotion",
 		"Emmet",
+		"FuzzyFilePath",
 		"HTML-CSS-JS Prettify",
 		"Jade",
 		"JavaScript & NodeJS Snippets",

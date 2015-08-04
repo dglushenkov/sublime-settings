@@ -43,7 +43,7 @@
         "context": [{"key": "setting.command_mode"}]
     },
     {
-        "keys": ["escape"],
+        "keys": ["alt+j"],
         "command": "chain",
         "args": {"commands": [["hide_auto_complete"], ["exit_insert_mode"], ["exit_visual_mode"]]},
     },
