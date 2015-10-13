@@ -1,0 +1,15 @@
+{
+    "scopes": [
+        {
+            // css - *: url()
+            "scope": "meta\\.property.*\\.css",
+            // *: url
+            "prefix": ["url"],
+
+            "auto": true,
+            "relative": true,
+            "base_directory": false,
+            "extensions": ["png", "gif", "jpeg", "jpg", "woff", "ttf", "svg", "otf"],
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    // If plugin has trouble finding Node.js, replace this string with path
+    // to your `node` bin
+    "node-path" : "/home/user/nodejs/bin"
+}

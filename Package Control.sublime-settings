@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -10,16 +11,19 @@
 		"BracketHighlighter",
 		"Chain of Command",
 		"CSS Extended Completions",
+		"CSScomb",
 		"DocBlockr",
 		"EasyMotion",
 		"Emmet",
 		"FuzzyFilePath",
+		"GitSavvy",
 		"HTML-CSS-JS Prettify",
 		"Jade",
 		"JavaScript & NodeJS Snippets",
 		"LESS",
 		"Package Control",
 		"SCSS",
-		"Theme - Afterglow"
+		"Theme - Afterglow",
+		"Xdebug Client"
 	]
 }
