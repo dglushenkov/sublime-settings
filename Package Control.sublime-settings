@@ -5,8 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"Bootstrap 3 Jade Snippets",
-		"Bootstrap 3 Snippets",
 		"BracketGuard",
 		"BracketHighlighter",
 		"Chain of Command",
@@ -16,7 +14,6 @@
 		"EasyMotion",
 		"Emmet",
 		"FuzzyFilePath",
-		"GitSavvy",
 		"HTML-CSS-JS Prettify",
 		"Jade",
 		"JavaScript & NodeJS Snippets",
@@ -24,7 +21,6 @@
 		"Package Control",
 		"SCSS",
 		"SideBarEnhancements",
-		"Theme - Afterglow",
-		"Xdebug Client"
+		"Theme - Afterglow"
 	]
 }
