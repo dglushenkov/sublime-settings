@@ -43,7 +43,7 @@
         "context": [{"key": "setting.command_mode"}]
     },
     {
-        "keys": ["alt+j"],
+        "keys": ["escape"],
         "command": "chain",
         "args": {"commands": [["hide_auto_complete"], ["exit_insert_mode"], ["exit_visual_mode"]]},
     },
@@ -57,5 +57,16 @@
         "keys": ["ctrl+;"],
         "command": "run_macro_file",
         "args": {"file": "Packages/User/semicolon.sublime-macro"}
+    },
+    // Lubuntu fix
+    {
+        "keys": ["alt+ctrl+up"],
+        "command": "select_lines",
+        "args": {"forward": false}
+    },
+    {
+        "keys": ["alt+ctrl+down"],
+        "command": "select_lines",
+        "args": {"forward": true}
     }
 ]
