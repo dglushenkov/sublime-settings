@@ -13,14 +13,9 @@
 	"ignored_packages":
 	[
 	],
-	"rulers":
-	[
-		120
-	],
 	"tab_size": 4,
 	"theme": "Afterglow.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"vintage_start_in_command_mode": true,
 	"word_wrap": true,
-	"wrap_width": 120
 }
